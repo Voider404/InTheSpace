@@ -1,0 +1,26 @@
+type: DoubleTurret
+name: Sai Turret
+description: Sai turret is... Mediocre... Can't say anything much about it. 
+health: 400
+size: 1
+reload: 20
+range: 300
+ammoUseEffect: shellEjectSmall
+inaccuracy: 0
+rotatespeed: 25
+ammo: {
+  lead: {
+    speed: 20
+    damage: 8
+    bulletWidth: 5
+    bulletHeight: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 6
+  }
+}
+requirements: [
+  lead/50
+]
+category: turret
+research: reinforced-turret

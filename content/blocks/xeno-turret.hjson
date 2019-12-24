@@ -1,0 +1,26 @@
+type: DoubleTurret
+name: Xeno Turret
+description: That long range turret will obliterate your enemies. Probably.
+health: 1500
+size: 1
+reload: 120
+range: 300
+ammoUseEffect: shellEjectSmall
+inaccuracy: 0
+rotatespeed: 10
+ammo: {
+  copper: {
+    speed: 40
+    damage: 100
+    bulletWidth: 2
+    bulletHeight: 20
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+  }
+}
+requirements: [
+  copper/200
+]
+category: turret
+research: void-turret

@@ -1,0 +1,36 @@
+{
+	"type": "ItemTurret",
+	"name": "Xeno Fuse",
+	"description": "Devastating damage. A weapon, that can destroy Metal Gear",
+    "targetAir": true,
+    "targetGround": true,
+    "hasPower": true,
+    "hasLiquids": true, 
+    "shootType": "lancerLaser",
+    "health": 500,
+    "size": 3,
+    "inaccuracy": 0,
+    "reload": 30,
+	"shots": 3,
+    "recoil": 1,
+    "shootCone": 40,
+    "rotateSpeed": 50,
+    "range": 200,
+	"ammo": {
+		"copper": {
+			"speed": 3.0,
+			"damage": 305.0,
+			"bulletWidth": 20,
+			"bulletHeight": 25,
+			"shootEffect": "lightningShoot",
+			"ammoMultiplier": 5
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 225 },
+		{ "item": "graphite", "amount": 225 },
+		{ "item": "thorium", "amount": 100 }
+	],
+	"category": "turret",
+	"research": "xeno-turret"
+}

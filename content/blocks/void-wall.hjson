@@ -1,0 +1,10 @@
+name: Void Wall
+description: 4x the copper wall =)
+type: Wall
+health: 5200
+size: 2
+requirements: [
+  copper/150
+]
+category: defense
+research: copper-wall

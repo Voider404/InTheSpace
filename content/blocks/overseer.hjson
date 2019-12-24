@@ -1,0 +1,26 @@
+type: DoubleTurret
+name: Overseer
+description: It is worth spending that extra copper on a turret.
+health: 350
+size: 1
+reload: 6
+range: 125
+ammoUseEffect: shellEjectSmall
+inaccuracy: 1
+rotatespeed: 23
+ammo: {
+  copper: {
+    speed: 6
+    damage: 15
+    bulletWidth: 5
+    bulletHeight: 7
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 6
+  }
+}
+requirements: [
+  copper/70
+]
+category: turret
+research: duo

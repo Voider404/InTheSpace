@@ -1,0 +1,26 @@
+type: DoubleTurret
+name: Scrap Turret
+description: A scrap turret. For starters only. 
+health: 300
+size: 1
+reload: 10
+range: 300
+ammoUseEffect: shellEjectSmall
+inaccuracy: 2
+rotatespeed: 20
+ammo: {
+  scrap: {
+    speed: 40
+    damage: 6
+    bulletWidth: 5
+    bulletHeight: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+}
+requirements: [
+  scrap/50
+]
+category: turret
+research: duo
