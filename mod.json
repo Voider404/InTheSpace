@@ -1,4 +1,5 @@
 name: "InTheSpace"
-author: "Voider"
+author: "ThatAvocado_Boi"
 description: "A simple mod, that will add multiple turrets, lots of blocks and enemies?"
+MinGameVersion: "1.3.6"
 version: "0.1.2"
