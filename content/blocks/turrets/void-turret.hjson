@@ -1,0 +1,16 @@
+type: DoubleTurret
+name: Void Turret 
+description: Turret that converts copper to energy
+health: 1000
+size: 1
+reloadTime: 4
+bulletDamage: 30
+range: 150
+consumes: {
+  power: 1.5
+}
+requirements: [
+  copper/150
+]
+category: turret
+research:overseer
