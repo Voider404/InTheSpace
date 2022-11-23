@@ -2,9 +2,9 @@ name: Sai Wall
 description: Just a wall
 type: Wall
 health: 7000
-size: 2
+size: 1
 requirements: [
-  lead/150
+  lead/100
 ]
 category: defense
 research: copper-wall
